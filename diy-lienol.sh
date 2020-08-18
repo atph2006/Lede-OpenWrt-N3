@@ -37,13 +37,13 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 git clone https://github.com/yangsongli/luci-theme-atmaterial.git package/luci-theme-atmaterial  
 
 #passwall出国软件
-svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-go package/trojan-go
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus package/trojan-plus
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/syncthing package/syncthing
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-go package/trojan-go
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus package/trojan-plus
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/syncthing package/syncthing
 
 
 git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
