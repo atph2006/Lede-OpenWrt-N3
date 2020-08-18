@@ -42,10 +42,9 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: diy-lienol.config
   DIY_OP_SH: diy-lienol.sh
-  SSH_ACTIONS: true
+  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
-  key:  
   UPLOAD_COWTRANSFER: true
   UPLOAD_REALEASE: false
   UPLOAD_WETRANSFER: true
