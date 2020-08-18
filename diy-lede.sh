@@ -63,11 +63,11 @@ git clone https://github.com/garypang13/luci-app-eqos package/luci-app-eqos  #�
 #svn co https://github.com/xiaorouji/openwrt-package/package/v2ray package/v2ray
 #svn co https://github.com/xiaorouji/openwrt-package/package/verysync package/verysync
 
-#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-#git clone https://github.com/kenzok8/small.git package/small
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/small.git package/small
 
-git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
+#git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
 
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon  #argon-主题
