@@ -27,8 +27,8 @@ on:
 
 
 #定时触发开始编译(utc時間)
-  schedule:
-    - cron: 0 8 */9 * *
+#  schedule:
+#    - cron: 0 8 */9 * *
 
 
 #点☆Star触发开始编译
@@ -42,7 +42,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: diy-lienol.config
   DIY_OP_SH: diy-lienol.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   key:  
