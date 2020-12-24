@@ -38,6 +38,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   REPO_BRANCH: dev-master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: diy-lienol.config
