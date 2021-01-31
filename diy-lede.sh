@@ -37,36 +37,12 @@ git clone https://github.com/yangsongli/luci-theme-atmaterial.git package/luci-t
 
 #passwall出国软件
 git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-go package/trojan-go
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus package/trojan-plus
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/syncthing package/syncthing
 
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/luci-app-passwall
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/brook package/brook
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/chinadns-ng package/chinadns-ng
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/tcping package/tcping
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-go package/trojan-go
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan-plus package/trojan-plus
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/syncthing package/syncthing
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/dns2socks package/dns2socks
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/ipt2socks package/ipt2socks
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/kcptun package/kcptun 
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/openssl1.1 package/openssl1.1
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/ipt2socks package/ipt2socks
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/pdnsd-alt package/pdnsd-alt
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/shadowsocksr-libev package/shadowsocksr-libev
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/simple-obfs package/simple-obfs
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/trojan package/trojan
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/v2ray-plugin package/v2ray-plugin
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/v2ray package/v2ray
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package/verysync package/verysync
 
-#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-#git clone https://github.com/kenzok8/small.git package/small
+#Hello World
+git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb #git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
+
 
 git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
