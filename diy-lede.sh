@@ -23,6 +23,8 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 #取消掉feeds.conf.default文件里面的helloworld的#注释
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default  #使用源码自带ShadowSocksR Plus+出国软件
 
+#添加r2s oled插件，和luci-app-beardropper防火墙自定义限速规则插件 
+echo "src-git natelol https://github.com/natelol/natelol.git" >> feeds.conf.default
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge  #主题-edge-动态登陆界面
