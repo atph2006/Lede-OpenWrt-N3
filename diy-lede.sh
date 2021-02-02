@@ -35,7 +35,7 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns  #smartdns DNS加速
 git clone https://github.com/garypang13/luci-app-eqos package/luci-app-eqos  #内网IP限速工具
 git clone https://github.com/yangsongli/luci-theme-atmaterial.git package/luci-theme-atmaterial #atmaterial主题
-
+#luci-app-compressed-memory 
 
 #passwall出国软件
 git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
