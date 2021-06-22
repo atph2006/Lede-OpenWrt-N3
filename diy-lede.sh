@@ -46,6 +46,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwal
 git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 
+#xray
+git clone https://github.com/yichya/luci-app-xray package/luci-app-xray
 
 git clone https://github.com/jerrykuku/node-request.git package/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
