@@ -93,7 +93,6 @@ jobs:
     #  uses: mxschmitt/action-tmate@v3
     - name: SSH远程连接服务器配置固件
       uses: P3TERX/ssh2actions@main
-      if: env.SSH_ACTIONS == 'true' || contains(github.event.action, 'ssh')
       
     - name: 组织配置文件
       run: |
