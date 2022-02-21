@@ -92,8 +92,8 @@ jobs:
 
 #    - name: SSH connection to Actions
 #      uses: mxschmitt/action-tmate@v3
-     - name: SSH远程连接服务器配置固件
-       uses: P3TERX/ssh2actions@main
+    - name: SSH远程连接服务器配置固件
+      uses: P3TERX/ssh2actions@main
       
     - name: 组织配置文件
       run: |
