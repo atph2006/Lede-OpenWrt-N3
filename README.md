@@ -6,6 +6,7 @@
 
 <hr></hr>
 - R2S编译暂时取消，仓库内两个均是Newifi3编译脚本，不包括x86编译。
+- 
 - TODO: 重命名amd64至newifi3
 <hr></hr>
 
